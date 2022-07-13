@@ -3,7 +3,7 @@ namespace Haustiere
 {
     public abstract class Fisch:Haustier
     {
-        public Fisch(string name):base(name)
+        public Fisch(string name, string besitzer):base(name, besitzer)
         {
 
             

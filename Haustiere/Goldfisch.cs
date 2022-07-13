@@ -4,7 +4,7 @@ namespace Haustiere
     public class Goldfisch:Fisch, IStreichelbar
     {
 
-        public Goldfisch(string name):base(name)
+        public Goldfisch(string name, string besitzer):base(name, besitzer)
         {
         }
 

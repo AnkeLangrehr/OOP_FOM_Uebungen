@@ -3,7 +3,7 @@ namespace Haustiere
 {
     public abstract class Saeuger:Haustier, IStreichelbar
     {
-        public Saeuger(string name):base(name)
+        public Saeuger(string name, string besitzer):base(name, besitzer)
         {
         }
 

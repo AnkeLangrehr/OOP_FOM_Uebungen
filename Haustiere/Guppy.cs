@@ -3,7 +3,7 @@ namespace Haustiere
 {
     public class Guppy:Fisch
     {
-        public Guppy(string name):base(name)
+        public Guppy(string name, string besitzer):base(name, besitzer)
         {
         }
 
